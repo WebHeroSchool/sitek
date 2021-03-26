@@ -12,3 +12,48 @@ font-weight: normal;
 font-size: 22px;
 line-height: 26px;
 }
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+border: dashed 1px red;
+}
+.main-section {
+border: dashed 1px red;
+}
+.logo {
+padding: 40px 0;
+font-family: PT Serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+}
+
+.logo, .menu {
+  display: inline-block;
+  border: dashed 1px red;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+ padding: 0 13px;
+ border: dashed 1px red;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+
+.menu__item:last-child {
+ padding-right: 0;
+}
