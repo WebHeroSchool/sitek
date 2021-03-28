@@ -1,16 +1,20 @@
 .main-content__title {
   font-family: PT Serif;
-font-style: normal;
-font-weight: bold;
-font-size: 66px;
-line-height: 87px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
 }
 .main-content__description {
   font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+}
+body {
+  border: dashed 1px red;
+  margin: 0;
 }
 .wrapper {
   margin: auto;
@@ -20,18 +24,39 @@ line-height: 26px;
 .header {
   display: flex;
   justify-content: space-between;
-border: dashed 1px red;
+  border: dashed 1px red;
 }
 .main-section {
-border: dashed 1px red;
+  border: dashed 1px red;
 }
 .logo {
-padding: 40px 0;
-font-family: PT Serif;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 32px;
+  padding: 40px 0;
+  padding-left: 44px;
+  position: relative;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+.logo__circle {
+  width: 28px;
+  height: 28px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  border-radius: 50%;
+  opacity: .7;
+}
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+
 }
 
 .logo, .menu {
@@ -47,11 +72,12 @@ line-height: 32px;
  padding: 0 13px;
  border: dashed 1px red;
  font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
+ text-decoration:none;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 18px;
+ line-height: 21px;
+ color: #000000;
 }
 
 .menu__item:last-child {
